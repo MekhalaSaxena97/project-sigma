@@ -6,6 +6,7 @@
 A 60-person transcription team. Two languages. A Q1 in freefall — quality dropping, SLA targets missed, leadership convinced it was a headcount problem.
 
 It wasn't.
+![SIGMA OPS Executive Dashboard](sigma_dashboard_preview.png)
 
 ---
 
