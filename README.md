@@ -52,4 +52,7 @@ I translated technical rows into a **Decision-Support Interface**.
 * `/Dashboard`: The final `.xlsx` Executive Performance Summary.
 * `/Dashboard_Preview`: The dashboard screenshot.
 
+Based on real operational work at Sigma.AI — reconstructed with synthetic data for portfolio purposes. Figures are accurate. Identifiers removed.
+
+
 **Mekhala Saxena** · [LinkedIn](https://www.linkedin.com/in/saxenamekhala97) · saxena.mekhala97@gmail.com
