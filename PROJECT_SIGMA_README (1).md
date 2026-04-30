@@ -9,34 +9,43 @@ It wasn't.
 
 ---
 
-## What I Did
-
-I built an end-to-end analytics pipeline to find out what was actually going wrong — and prove it with data before recommending anything.
-
-**In Python**, I generated 21,900 rows of daily performance logs simulating the full year: the crisis, the pivot, the recovery. Built with Pandas and NumPy — including a binomial sampling layer to replicate how real QA audits work in production.
-
-**In SQL**, I ran diagnostic queries against that data to isolate the problem. Not just *that* errors were happening — but *where*, *which type*, and *in which stream*. The culprit: orthographic inconsistencies concentrated in the Hindi Review team. A linguistic bottleneck, not a staffing one.
-
-**In Excel**, I built a slicer-driven executive dashboard to tell that story to people who don't have time for a briefing. A Radar Chart to show the error breakdown, a Combo Chart to track output against the SLA target line, and a Language toggle so stakeholders could switch between Hindi and English performance in one click.
+## 🛠️ The Toolkit
+* **Python (Pandas/NumPy):** The Engine. Used to engineer a 21,900-row synthetic dataset that modeled real-world operational volatility.
+* **SQL:** The Auditor. Used to perform diagnostic queries and isolate the exact "Hindi Orthographic" failure points.
+* **Excel:** The Interface. Designed a dynamic, executive-facing dashboard to visualize the strategic turnaround.
 
 ---
 
-## What It Found
+## 🏗️ The 3-Stage Pipeline
 
-The fix required zero additional headcount. Senior Hindi reviewers were reallocated to the underperforming segment. By Q3, quality scores jumped 22%. By Q4, SLA attainment was 100%.
+### 1. Data Engineering (Python)
+Instead of manual data entry, I built a **Simulation Engine**. 
+* Programmed "Crisis Logic" into Q1 to mirror real-world team struggles.
+* Used **Binomial Distribution** to simulate realistic random quality audits.
+* Automated the cleaning process to output a "Dashboard-Ready" dataset.
 
-The data made the decision obvious. That was the point.
+### 2. Diagnostic Auditing (SQL)
+I acted as a "Data Detective" to find out *why* we were failing.
+* **Linguistic Bottleneck:** My SQL queries isolated a 9.2% spike specifically in Hindi Orthography.
+* **SLA Validation:** Built logic to calculate attainment % at the worker level, identifying under-resourced team segments.
+
+### 3. Executive Insights (Excel)
+I translated technical rows into a **Decision-Support Interface**.
+* **Normalized Metrics:** Converted millions of units into a clean "SLA Attainment %" for easier stakeholder digestion.
+* **Visual Strategy:** Used Radar Charts for risk mapping and Combo Charts to show the moment we "broke through" the 100% target in Q3.
 
 ---
 
-| File | What it does |
-|---|---|
-| `sigma_data_generator.py` | Builds the dataset |
-| `sigma_data_extraction.sql` | Runs the diagnosis |
-| `Project1_Final.xlsx` | Tells the story |
+## 🏆 The Impact
+* **22% Quality Surge:** Following a data-backed resource reallocation.
+* **104% SLA Attainment:** Moved from a "Failure State" (91%) to exceeding targets (104%).
+* **ZERO Headcount Increase:** Solved the bottleneck by optimizing existing talent rather than hiring.
 
 ---
 
-*Based on real work at Sigma.AI, reconstructed with synthetic data for portfolio purposes. Figures are accurate. Identifiers removed.*
+## 📂 Repository Structure
+* `/SQL_Source`: Diagnostic audit scripts.
+* `/Python_ETL`: Data generation and cleaning logic.
+* `/Dashboard`: The final `.xlsx` Executive Performance Summary.
 
 **Mekhala Saxena** · [LinkedIn](https://www.linkedin.com/in/saxenamekhala97) · saxena.mekhala97@gmail.com
