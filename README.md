@@ -8,6 +8,8 @@ A 60-person transcription team. Two languages. A Q1 in freefall — quality drop
 It wasn't.
 ![SIGMA OPS Executive Dashboard](sigma_dashboard_preview.png)
 
+
+
 ---
 
 ## 🛠️ The Toolkit
@@ -48,5 +50,6 @@ I translated technical rows into a **Decision-Support Interface**.
 * `/SQL_Source`: Diagnostic audit scripts.
 * `/Python_ETL`: Data generation and cleaning logic.
 * `/Dashboard`: The final `.xlsx` Executive Performance Summary.
+* `/Dashboard_Preview`: The dashboard screenshot.
 
 **Mekhala Saxena** · [LinkedIn](https://www.linkedin.com/in/saxenamekhala97) · saxena.mekhala97@gmail.com
